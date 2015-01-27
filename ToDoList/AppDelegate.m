@@ -14,6 +14,14 @@
 
 @implementation AppDelegate
 
+// The application object will call the following important events in the life-
+// cycle of the app.
+
+// Leaving the implementation empty seems as if you did not declared it. My 
+// guess is the parent (UIApplicationDelegate) contains the code called 
+// with the default behaviour.
+// Added code gets done over the default behaviour...
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
